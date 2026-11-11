@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kaveen Herath — UI/UX & Front-End Developer</title>
+  <meta name="description" content="Kaveen Herath — Computer Science undergraduate focused on UI/UX, front-end development and interactive web experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Kaveen Herath home">
+      <span>Kaveen Herath<span class="brand-accent">.</span></span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta magnetic" href="#contact">Let’s talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE UNDERGRADUATE · APIIT SRI LANKA</p>
+          <h1>I design <span>interfaces</span> and build digital experiences.</h1>
+          <p class="hero-sub">UI/UX thinking meets front-end development. I turn ideas, user needs and wireframes into polished, responsive experiences.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#work">Explore my work <span>↓</span></a>
+            <a class="btn btn-ghost magnetic" href="#contact">Let’s connect <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>UI/UX</span><i></i><span>Front-End</span><i></i><span>Web</span><i></i><span>Visual Design</span>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal reveal-delay">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="stage-grid"></div>
+          <div class="float-card card-design">
+            <div class="mini-label">DESIGN SYSTEM</div>
+            <div class="mini-title">Structure → Style → Flow</div>
+            <div class="mini-line"><span></span><span></span><span></span></div>
+          </div>
+          <div class="float-card card-code">
+            <div class="mini-label">FRONT-END</div>
+            <div class="code-lines">
+              <span><b>&lt;</b>interface <em>class</em>=<strong>"clean"</strong><b>&gt;</b></span>
+              <span>&nbsp;&nbsp;build(<em>experience</em>)</span>
+              <span><b>&lt;/</b>interface<b>&gt;</b></span>
+            </div>
+          </div>
+          <div class="hero-device">
+            <div class="device-top"><span></span><span></span><span></span><small>kaveen.dev</small></div>
+            <div class="device-screen">
+              <div class="screen-kicker">SELECTED WORK</div>
+              <div class="screen-title">A portfolio built around the work.</div>
+              <div class="screen-chip">UI / UX / CODE</div>
+              <div class="screen-bars"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of focus">
+      <div class="ticker-track">
+        <span>USER EXPERIENCE</span><b>✦</b><span>INTERACTION DESIGN</span><b>✦</b><span>FRONT-END DEVELOPMENT</span><b>✦</b><span>RESPONSIVE WEB</span><b>✦</b><span>PROTOTYPING</span><b>✦</b>
+        <span>USER EXPERIENCE</span><b>✦</b><span>INTERACTION DESIGN</span><b>✦</b><span>FRONT-END DEVELOPMENT</span><b>✦</b><span>RESPONSIVE WEB</span><b>✦</b><span>PROTOTYPING</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="work" class="work section-pad">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects with <span>purpose.</span></h2>
+        </div>
+        <p class="section-intro">A mix of product design, front-end development and systems thinking — from full recruitment platforms to smaller web experiences.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="uiux">UI/UX</button>
+        <button class="filter" data-filter="frontend">Front-End</button>
+        <button class="filter" data-filter="other">Other</button>
+      </div>
+
+      <div class="projects" id="projectsGrid">
+        <article class="project project-large reveal" data-category="uiux frontend" data-project="altrium">
+          <div class="project-media">
+            <img src="assets/Altrium.png" alt="Altrium career portal dashboard" loading="lazy">
+            <div class="project-overlay"><span>Open case study ↗</span></div>
+          </div>
+          <div class="project-info">
+            <div><p class="project-type">UI/UX · FRONT-END · FULL-STACK</p><h3>Altrium</h3></div>
+            <p class="project-desc">Recruitment management platform covering vacancy discovery, applications, interview scheduling, notifications and admin workflows.</p>
+            <div class="project-tags"><span>HTML / CSS</span><span>JavaScript</span><span>Node.js</span><span>PostgreSQL</span><span>Playwright</span></div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="frontend" data-project="greenbite">
+          <div class="project-media">
+            <img src="assets/Greenbite.png" alt="GreenBite Website" loading="lazy">
+            <div class="project-overlay"><span>Open case study ↗</span></div>
+          </div>
+          <div class="project-info"><div><p class="project-type">FRONT-END · WEB DEVELOPMENT</p><h3>GreenBite</h3></div><p class="project-desc">A responsive website built as a functional web-development project with a clear visual system and interactive browsing experience.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div></div>
+        </article>
+
+        <article class="project reveal" data-category="uiux" data-project="medical">
+          <div class="project-media">
+            <img src="assets/MediLink.png" alt="GreenBite Website" loading="lazy">
+            <div class="project-overlay"><span>Open case study ↗</span></div>
+          </div>
+          <div class="project-info"><div><p class="project-type">UI/UX DESIGN</p><h3>Medical Management System</h3></div><p class="project-desc">A user-focused interface concept exploring information hierarchy, dashboards and streamlined healthcare workflows.</p><div class="project-tags"><span>Figma</span><span>Wireframing</span><span>Prototyping</span><span>Usability</span></div></div>
+        </article>
+
+        <article class="project project-wide reveal" data-category="other" data-project="gate">
+          <div class="project-media">
+            <img src="assets/HMS_Wokwi.png" alt="GreenBite Website" loading="lazy">
+            <div class="project-overlay"><span>Open case study ↗</span></div>
+          </div>
+          <div class="project-info"><div><p class="project-type">IOT · EMBEDDED SYSTEM</p><h3>Secure Industrial Loading Gate</h3></div><p class="project-desc">An ESP32-based embedded prototype combining motion detection, distance sensing, servo control, safety recovery and OLED status feedback.</p><div class="project-tags"><span>ESP32</span><span>Arduino</span><span>Sensors</span><span>Servo</span><span>OLED</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad">
+      <div class="about-grid">
+        <div class="about-title reveal"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Design-minded.<br><span>Code-capable.</span></h2></div>
+        <div class="about-copy reveal reveal-delay"><p>I’m Kaveen, a Computer Science undergraduate at APIIT Sri Lanka who enjoys working where design and development overlap.</p><p>My focus is building interfaces that are visually sharp, easy to understand and practical to implement. I like moving from early flows and wireframes into real, responsive front-end experiences.</p><div class="about-facts"><div><strong>CS</strong><span>Undergraduate</span></div><div><strong>UI/UX</strong><span>Design focus</span></div><div><strong>WEB</strong><span>Build & ship</span></div></div></div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-pad">
+      <div class="section-head reveal"><div><p class="eyebrow">CAPABILITIES</p><h2>Things I like to <span>build.</span></h2></div></div>
+      <div class="skills-grid reveal">
+        <div class="skill-card"><span class="skill-number">01</span><h3>UI/UX Design</h3><p>Wireframes, prototypes, visual systems and user-centred interface decisions.</p><div class="skill-list"><span>Figma</span><span>Wireframing</span><span>Prototyping</span><span>Design Systems</span></div></div>
+        <div class="skill-card"><span class="skill-number">02</span><h3>Front-End Development</h3><p>Responsive interfaces with attention to layout, interactions, accessibility and polish.</p><div class="skill-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div></div>
+        <div class="skill-card"><span class="skill-number">03</span><h3>Product Thinking</h3><p>Turning requirements into flows and features that feel clear from first click to completion.</p><div class="skill-list"><span>User Flows</span><span>Usability</span><span>Problem Solving</span><span>Collaboration</span></div></div>
+      </div>
+    </section>
+
+    <section class="process section-pad">
+      <div class="section-head reveal"><div><p class="eyebrow">MY APPROACH</p><h2>Think. Design. <span>Build.</span></h2></div><p class="section-intro">I keep the workflow simple: understand the problem, shape the experience, then turn the idea into something real.</p></div>
+      <div class="process-track reveal">
+        <div class="process-step"><b>01</b><h3>Discover</h3><p>Understand users, requirements and the actual problem to solve.</p></div>
+        <div class="process-line"></div>
+        <div class="process-step"><b>02</b><h3>Design</h3><p>Map flows, build wireframes and refine the visual direction.</p></div>
+        <div class="process-line"></div>
+        <div class="process-step"><b>03</b><h3>Develop</h3><p>Translate the design into responsive, functional front-end code.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-pad">
+      <div class="contact-card reveal">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s make something<br><span>worth clicking.</span></h2></div>
+        <div class="contact-right"><p>Open to internships, junior opportunities and projects where design and development can meet.</p><a class="btn btn-primary magnetic" href="mailto:kherath2006@gmail.com@example.com">Start a conversation <span>↗</span>
+          </a><div class="contact-links"><a href="https://www.linkedin.com/in/kaveen-herath/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Kaveen-Herath" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://kaveen-herath.github.io/" target="_blank" rel="noreferrer">Graphic Design ↗</a></div>
+          <div class="contact-right"><p>kherath2006@gmail.com | 0767347799</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>© 2026 Kaveen Herath</span><span>Designed & built with intent.</span><a href="#top">Back to top ↑</a></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close case study">×</button>
+      <div class="modal-kicker" id="modalKicker"></div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalBody"></p>
+      <div class="modal-highlights" id="modalHighlights"></div>
+      <div class="modal-actions" id="modalActions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
