@@ -1,4 +1,4 @@
-# Kaveen Herath — UI/UX + Front-End Portfolio
+# Kaveen Herath - UI/UX + Front-End Portfolio
 
 A single-page portfolio designed around UI/UX and front-end work, with a darker tech/editorial direction and an electric cyan + violet palette.
 
